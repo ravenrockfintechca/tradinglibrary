@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: weekly
+  id: ZTR_Codex_Ch8
+  name: Rule Testing in Portfolios
+  signal:
+  - portfolio_screening
+  - rule_combinations
+  source_chapter: 8
+  type: technical

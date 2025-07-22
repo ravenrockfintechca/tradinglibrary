@@ -1,0 +1,11 @@
+strategy:
+  deployable: false
+  frequency: intraday
+  id: ZTR_Codex_Ch14
+  name: ETF Noise Trading Signal
+  signal:
+  - order_flow
+  - retail_volume
+  - price_reaction
+  source_chapter: 14
+  type: ETF
