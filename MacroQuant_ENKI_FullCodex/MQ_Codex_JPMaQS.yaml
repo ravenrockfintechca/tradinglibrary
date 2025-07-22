@@ -1,0 +1,20 @@
+module:
+  dimensions:
+  - inflation
+  - growth
+  - credit
+  - balance_of_payments
+  - financial_conditions
+  - fiscal
+  - monetary
+  - external
+  features:
+  - observation_time
+  - release_time
+  - data_revision
+  - timestamp_validity
+  - version_control
+  id: MQ_Codex_JPMaQS
+  name: JPMaQS Macro Quant System
+  output: macro_factor_signals
+  type: platform

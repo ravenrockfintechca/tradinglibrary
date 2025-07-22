@@ -1,0 +1,10 @@
+module:
+  id: MQ_Codex_ValueGen
+  mechanisms:
+  - macro_trend
+  - hidden_subsidy
+  - pricing_distortion
+  - endogenous_risk
+  name: Macro Alpha Generation Mechanisms
+  type: alpha_framework
+  use_case: multi_signal_combination
