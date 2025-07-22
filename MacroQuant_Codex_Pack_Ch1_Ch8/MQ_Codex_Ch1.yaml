@@ -1,0 +1,10 @@
+module:
+  application: signal_modeling
+  chapter: 1
+  concepts:
+  - macro_quant
+  - inefficiency
+  - information_decay
+  id: MQ_Codex_Ch1
+  name: Quantamental Framework Introduction
+  type: concept

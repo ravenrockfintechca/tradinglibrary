@@ -1,0 +1,11 @@
+strategy:
+  asset_class: FX
+  deployable: false
+  frequency: monthly
+  id: ZTR_Codex_Ch18
+  name: Climate-Driven FX Strategy
+  signal:
+  - weather_index
+  - macro_shock_reaction
+  source_chapter: 18
+  type: FX_environmental

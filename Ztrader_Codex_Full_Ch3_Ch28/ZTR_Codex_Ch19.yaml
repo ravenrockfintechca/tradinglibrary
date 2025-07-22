@@ -1,0 +1,11 @@
+strategy:
+  deployable: false
+  frequency: intraday
+  id: ZTR_Codex_Ch19
+  name: Algorithmic Execution Strategy
+  signal:
+  - VWAP
+  - TWAP
+  - implementation_shortfall
+  source_chapter: 19
+  type: execution_algo

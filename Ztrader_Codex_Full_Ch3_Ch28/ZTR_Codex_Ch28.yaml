@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch28
+  name: Overconfidence & Behavioral Bias Strategy
+  signal:
+  - overtrading_indicator
+  - past_return_bias
+  source_chapter: 28
+  type: behavioral_finance

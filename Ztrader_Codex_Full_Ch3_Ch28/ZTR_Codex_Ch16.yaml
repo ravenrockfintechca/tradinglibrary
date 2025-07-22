@@ -1,0 +1,11 @@
+strategy:
+  asset_class: equities
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch16
+  name: S&P 500 Day-of-the-Week Effect
+  signal:
+  - weekday_bias
+  - STR_model
+  source_chapter: 16
+  type: calendar_effect

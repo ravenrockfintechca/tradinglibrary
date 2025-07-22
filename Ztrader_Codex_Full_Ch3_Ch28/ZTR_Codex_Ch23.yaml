@@ -1,0 +1,10 @@
+strategy:
+  deployable: false
+  frequency: daily
+  id: ZTR_Codex_Ch23
+  name: Volume & Arbitrage Risk Interaction
+  signal:
+  - volume_pattern
+  - arbitrage_risk_score
+  source_chapter: 23
+  type: microstructure

@@ -1,0 +1,11 @@
+strategy:
+  asset_class: fixed_income
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch15
+  name: Fixed Income ETF Arbitrage
+  signal:
+  - NAV_spread
+  - bond_yield_mispricing
+  source_chapter: 15
+  type: ETF

@@ -1,0 +1,11 @@
+module:
+  application: alpha_classification
+  chapter: 5
+  id: MQ_Codex_Ch5
+  mechanisms:
+  - macro_trend
+  - hidden_subsidy
+  - pricing_distortion
+  - endogenous_risk
+  name: Investment Value Generation Mechanisms
+  type: alpha_framework

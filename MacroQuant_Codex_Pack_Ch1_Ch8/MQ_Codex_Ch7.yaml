@@ -1,0 +1,14 @@
+module:
+  application: multi_asset_signal_generation
+  asset_classes:
+  - FX
+  - Equities
+  - Bonds
+  chapter: 7
+  factors:
+  - growth_cycle
+  - inflation_regime
+  - financial_conditions
+  id: MQ_Codex_Ch7
+  name: Macro Factor Empirics
+  type: empirical_factors

@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: event_driven
+  id: ZTR_Codex_Ch24
+  name: Hard vs Soft Information Trading Response
+  signal:
+  - earnings_announcement
+  - press_sentiment
+  source_chapter: 24
+  type: information_structure

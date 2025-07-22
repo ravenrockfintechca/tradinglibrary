@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: weekly
+  id: ZTR_Codex_Ch25
+  name: Bubble & Anti-Bubble Strategy
+  signal:
+  - log_periodic_pattern
+  - price_acceleration
+  source_chapter: 25
+  type: crisis_trading

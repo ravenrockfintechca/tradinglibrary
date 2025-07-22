@@ -1,0 +1,12 @@
+strategy:
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch7
+  market: emerging
+  name: Technical Rules in Emerging Markets
+  signal:
+  - moving_avg
+  - RSI
+  - breakout
+  source_chapter: 7
+  type: technical

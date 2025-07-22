@@ -1,0 +1,10 @@
+module:
+  application: factor_modeling
+  chapter: 3
+  concepts:
+  - observation_point
+  - reference_point
+  - indicator_validity
+  id: MQ_Codex_Ch3
+  name: Quantamental Indicator Structure
+  type: data_structure

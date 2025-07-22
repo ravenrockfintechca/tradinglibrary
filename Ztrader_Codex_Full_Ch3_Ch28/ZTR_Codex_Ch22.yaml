@@ -1,0 +1,10 @@
+strategy:
+  deployable: false
+  frequency: intraday
+  id: ZTR_Codex_Ch22
+  name: Information Asymmetry & Volume Signal
+  signal:
+  - volume_spike
+  - info_type_label
+  source_chapter: 22
+  type: behavioral_volume

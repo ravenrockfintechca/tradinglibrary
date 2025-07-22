@@ -1,0 +1,10 @@
+strategy:
+  asset_class: futures
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch5
+  name: Futures-Based Momentum
+  signal:
+  - futures_price_momentum
+  source_chapter: 5
+  type: momentum

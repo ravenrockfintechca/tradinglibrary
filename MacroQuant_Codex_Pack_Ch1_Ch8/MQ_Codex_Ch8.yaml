@@ -1,0 +1,10 @@
+module:
+  application: signal_optimization
+  chapter: 8
+  id: MQ_Codex_Ch8
+  methods:
+  - regression_learning
+  - classification
+  - feature_selection
+  name: Macro Data Science Integration
+  type: data_science
