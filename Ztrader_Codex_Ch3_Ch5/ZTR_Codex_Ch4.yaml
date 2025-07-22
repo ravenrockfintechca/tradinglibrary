@@ -1,0 +1,11 @@
+strategy:
+  deployable: true
+  frequency: monthly
+  id: ZTR_Codex_Ch4
+  name: Turbulent Market Momentum
+  regime_sensitive: true
+  signal:
+  - adaptive_momentum
+  - volatility_adjustment
+  source_chapter: 4
+  type: momentum
