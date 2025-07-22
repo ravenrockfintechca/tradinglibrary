@@ -1,0 +1,11 @@
+strategy:
+  deployable: false
+  frequency: daily
+  id: ZTR_Codex_Ch10
+  name: Nonlinear Technical Models
+  signal:
+  - ANN
+  - SVM
+  - pattern_recognition
+  source_chapter: 10
+  type: technical

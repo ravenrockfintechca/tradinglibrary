@@ -1,0 +1,11 @@
+strategy:
+  asset_class: equities
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch16
+  name: STR Model - Day-of-the-Week Effect
+  signal:
+  - day_of_week
+  - STR_smoothing
+  source_chapter: 16
+  type: calendar

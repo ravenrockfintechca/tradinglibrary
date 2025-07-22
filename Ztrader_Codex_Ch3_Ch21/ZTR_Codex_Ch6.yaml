@@ -1,0 +1,10 @@
+strategy:
+  deployable: false
+  frequency: intraday
+  id: ZTR_Codex_Ch6
+  name: Order Placement Strategy
+  signal:
+  - limit_order_depth
+  - call_vs_continuous
+  source_chapter: 6
+  type: microstructure

@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: monthly
+  id: ZTR_Codex_Ch20
+  name: Copula Risk Allocation Model
+  signal:
+  - copula_structure
+  - marginal_distributions
+  source_chapter: 20
+  type: risk_model

@@ -1,0 +1,11 @@
+strategy:
+  asset_class: FX
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch17
+  name: HIBOR-SIBOR FX Arbitrage
+  signal:
+  - interest_rate_diff
+  - HKD_SGD
+  source_chapter: 17
+  type: FX_arbitrage

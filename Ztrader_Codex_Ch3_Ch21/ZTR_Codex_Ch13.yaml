@@ -1,0 +1,11 @@
+strategy:
+  asset_class: ETF
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch13
+  name: Leveraged ETF Performance Strategy
+  signal:
+  - tracking_error
+  - mean_reversion
+  source_chapter: 13
+  type: ETF

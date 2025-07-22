@@ -1,0 +1,10 @@
+strategy:
+  deployable: false
+  frequency: monthly
+  id: ZTR_Codex_Ch18
+  name: Climate-Driven FX Opportunities
+  signal:
+  - climate_exposure
+  - cross_currency
+  source_chapter: 18
+  type: macro_environmental

@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: weekly
+  id: ZTR_Codex_Ch21
+  name: Commodity Risk Monitoring Tool
+  signal:
+  - commodity_price_risk
+  - supply_demand_metrics
+  source_chapter: 21
+  type: risk_monitoring

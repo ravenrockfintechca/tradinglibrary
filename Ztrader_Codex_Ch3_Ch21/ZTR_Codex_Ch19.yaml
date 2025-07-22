@@ -1,0 +1,11 @@
+strategy:
+  deployable: false
+  frequency: infrastructure
+  id: ZTR_Codex_Ch19
+  name: Algorithmic Execution Models
+  signal:
+  - VWAP
+  - TWAP
+  - IS
+  source_chapter: 19
+  type: execution_algo

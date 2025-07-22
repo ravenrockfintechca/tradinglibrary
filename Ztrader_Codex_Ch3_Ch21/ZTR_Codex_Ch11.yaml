@@ -1,0 +1,11 @@
+strategy:
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch11
+  name: Dual Moving Average + Exponential Smoothing
+  signal:
+  - fast_MA
+  - slow_MA
+  - EMA_smoothing
+  source_chapter: 11
+  type: technical
