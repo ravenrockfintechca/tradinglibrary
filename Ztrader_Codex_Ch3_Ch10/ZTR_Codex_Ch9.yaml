@@ -1,0 +1,11 @@
+strategy:
+  asset_class: FX
+  deployable: true
+  frequency: daily
+  id: ZTR_Codex_Ch9
+  name: FX Technical Rules
+  signal:
+  - FX_trend
+  - support_resistance
+  source_chapter: 9
+  type: technical

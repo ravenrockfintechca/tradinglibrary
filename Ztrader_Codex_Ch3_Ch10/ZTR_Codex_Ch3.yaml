@@ -1,0 +1,10 @@
+strategy:
+  deployable: true
+  frequency: monthly
+  id: ZTR_Codex_Ch3
+  name: Private Momentum Strategy
+  signal:
+  - rank_12m_return
+  - volume_filter
+  source_chapter: 3
+  type: momentum
