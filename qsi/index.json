@@ -9,280 +9,300 @@
       "name": "PCA Residual Statistical Arbitrage",
       "reported_date": "2026-11-05",
       "mechanism_key": "pca_residual_mean_reversion",
-      "doi": "10.1080/14697680903124632",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-057",
       "name": "Commodity Basis Momentum",
       "reported_date": "2026-11-05",
       "mechanism_key": "commodity_term_structure_change",
-      "doi": "10.1111/jofi.12738",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-058",
       "name": "Implied Correlation Dispersion",
       "reported_date": "2026-11-05",
       "mechanism_key": "index_constituent_implied_correlation",
-      "doi": "10.1017/S1748499524000228",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-059",
       "name": "Idiosyncratic Volatility Anomaly",
       "reported_date": "2026-11-05",
       "mechanism_key": "factor_residual_volatility",
-      "doi": "10.1111/j.1540-6261.2006.00836.x",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-060",
       "name": "ETF Premium–Discount Convergence",
       "reported_date": "2026-11-05",
       "mechanism_key": "etf_nav_deviation",
-      "doi": "10.1016/j.jbankfin.2013.05.014",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": "ETF Mispricing Arbitrage in strategy_index.yaml"
+      "existing_repo_overlap": "ETF Mispricing Arbitrage in strategy_index.yaml",
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-061",
       "name": "Post-Earnings Announcement Drift",
       "reported_date": "2026-11-06",
       "mechanism_key": "post_earnings_drift",
-      "doi": "10.2307/2491062",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-062",
       "name": "Gross Profitability Premium",
       "reported_date": "2026-11-06",
       "mechanism_key": "gross_profitability",
-      "doi": "10.1016/j.jfineco.2013.01.003",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-063",
       "name": "FX Forward Carry",
       "reported_date": "2026-11-06",
       "mechanism_key": "fx_forward_interest_differential",
-      "doi": "10.1086/593088",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-064",
       "name": "Order Flow Imbalance",
       "reported_date": "2026-11-06",
       "mechanism_key": "order_book_imbalance",
-      "doi": "10.1093/jjfinec/nbt003",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-065",
       "name": "Cross-Sectional Option RV–IV Gap",
       "reported_date": "2026-11-06",
       "mechanism_key": "option_cross_section_rv_iv",
-      "doi": "10.1016/j.jfineco.2009.06.005",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-066",
       "name": "Industry Momentum",
       "reported_date": "2026-11-07",
       "mechanism_key": "industry_relative_momentum",
-      "doi": "10.1111/0022-1082.00146",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-067",
       "name": "Mutual Fund Fire-Sale Reversal",
       "reported_date": "2026-11-07",
       "mechanism_key": "mutual_fund_forced_liquidation",
-      "doi": "10.1016/j.jfineco.2006.09.007",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-068",
       "name": "IPO Lockup Expiration",
       "reported_date": "2026-11-07",
       "mechanism_key": "ipo_unlock_supply",
-      "doi": "10.1111/0022-1082.00334",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-069",
       "name": "Aggregate Analyst Revision",
       "reported_date": "2026-11-07",
       "mechanism_key": "analyst_revision_breadth",
-      "doi": "10.1111/j.1475-679x.2009.00337.x",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-070",
       "name": "VIX-Conditioned Liquidity Reversal",
       "reported_date": "2026-11-07",
       "mechanism_key": "vix_conditional_short_reversal",
-      "doi": "10.1093/rfs/hhs066",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-071",
       "name": "Quality Minus Junk",
       "reported_date": "2026-11-08",
       "mechanism_key": "composite_quality",
-      "doi": "10.1007/s11142-018-9470-2",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-072",
       "name": "Equity Loan Fee Anomaly",
       "reported_date": "2026-11-08",
       "mechanism_key": "securities_lending_fee",
-      "doi": "10.1287/mnsc.2023.00152",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-073",
       "name": "Cross-Sectional Currency Momentum",
       "reported_date": "2026-11-08",
       "mechanism_key": "fx_relative_momentum",
-      "doi": "10.1016/j.jfineco.2012.06.009",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-074",
       "name": "Overnight–Intraday Tug of War",
       "reported_date": "2026-11-08",
       "mechanism_key": "overnight_intraday_decomposition",
-      "doi": "10.1016/j.jfineco.2019.03.011",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-075",
       "name": "Expected Idiosyncratic Skewness",
       "reported_date": "2026-11-08",
       "mechanism_key": "expected_residual_skewness",
-      "doi": "10.1093/rfs/hhp041",
+      "doi": null,
       "aum_strategy": null,
       "sharpe_net": null,
       "max_drawdown": null,
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "NOT_REVERIFIED_ON_IMPORT"
     },
     {
       "id": "QSI-076",
@@ -296,7 +316,8 @@
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "FROM_DAILY_REPORT_REQUIRES_RECHECK"
     },
     {
       "id": "QSI-077",
@@ -310,7 +331,8 @@
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "FROM_DAILY_REPORT_REQUIRES_RECHECK"
     },
     {
       "id": "QSI-078",
@@ -324,7 +346,8 @@
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "FROM_DAILY_REPORT_REQUIRES_RECHECK"
     },
     {
       "id": "QSI-079",
@@ -338,7 +361,8 @@
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "FROM_DAILY_REPORT_REQUIRES_RECHECK"
     },
     {
       "id": "QSI-080",
@@ -352,7 +376,8 @@
       "source": "prior_QSI_daily_report_in_conversation",
       "verification": "PROVISIONAL",
       "deployment": "DRAFT_NO_SALE",
-      "existing_repo_overlap": null
+      "existing_repo_overlap": null,
+      "bibliography_status": "FROM_DAILY_REPORT_REQUIRES_RECHECK"
     }
   ]
 }
