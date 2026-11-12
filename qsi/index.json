@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "import_date": "2026-11-09",
-  "scope": "QSI-056..085, QSI-001..055 incomplete",
+  "scope": "QSI-056..095, QSI-001..055 incomplete",
   "history_001_055": "NOT_AVAILABLE_FOR_COMPLETE_VERIFICATION",
   "entries": [
     {
@@ -568,7 +568,82 @@
       "sharpe_net": null,
       "max_drawdown": null,
       "deployment": "DRAFT_NO_SALE"
+    },
+    {
+      "id": "QSI-091",
+      "name": "Avellaneda–Stoikov Inventory-Aware Market Making",
+      "reported_date": "2026-11-12",
+      "mechanism_key": "inventory_risk_skewed_optimal_limit_order_quotes",
+      "doi": "10.1080/14697680701381228",
+      "aum_strategy": null,
+      "sharpe_net": null,
+      "max_drawdown": null,
+      "source": "qsi/daily/2026-11-12.md",
+      "verification": "PROVISIONAL",
+      "deployment": "DRAFT_NO_SALE",
+      "priority": "P2",
+      "github": "https://github.com/mdibo/Avellaneda-Stoikov"
+    },
+    {
+      "id": "QSI-092",
+      "name": "Pástor–Stambaugh Liquidity Risk Premium",
+      "reported_date": "2026-11-12",
+      "mechanism_key": "cross_sectional_loading_on_aggregate_liquidity_innovations",
+      "doi": "10.1086/374184",
+      "aum_strategy": null,
+      "sharpe_net": null,
+      "max_drawdown": null,
+      "source": "qsi/daily/2026-11-12.md",
+      "verification": "PROVISIONAL",
+      "deployment": "DRAFT_NO_SALE",
+      "priority": "P1",
+      "github": "https://github.com/OpenSourceAP/CrossSection"
+    },
+    {
+      "id": "QSI-093",
+      "name": "Nonlinear ML Cross-Sectional Return Forecasting",
+      "reported_date": "2026-11-12",
+      "mechanism_key": "nonlinear_characteristic_interactions_supervised_return_forecast",
+      "doi": "10.1093/rfs/hhaa009",
+      "aum_strategy": null,
+      "sharpe_net": null,
+      "max_drawdown": null,
+      "source": "qsi/daily/2026-11-12.md",
+      "verification": "PROVISIONAL",
+      "deployment": "DRAFT_NO_SALE",
+      "priority": "P0",
+      "github": "https://github.com/DebraBeat/Empirical-Asset-Pricing-Via-Machine-Learning"
+    },
+    {
+      "id": "QSI-094",
+      "name": "Same-Calendar-Month Cross-Sectional Seasonality",
+      "reported_date": "2026-11-12",
+      "mechanism_key": "annual_same_calendar_month_stock_return_autocorrelation",
+      "doi": "10.1016/j.jfineco.2007.02.003",
+      "aum_strategy": null,
+      "sharpe_net": null,
+      "max_drawdown": null,
+      "source": "qsi/daily/2026-11-12.md",
+      "verification": "PROVISIONAL",
+      "deployment": "DRAFT_NO_SALE",
+      "priority": "P0",
+      "github": "https://github.com/OpenSourceAP/CrossSection"
+    },
+    {
+      "id": "QSI-095",
+      "name": "Embedded Leverage Relative-Value Premium",
+      "reported_date": "2026-11-12",
+      "mechanism_key": "investor_leverage_constraints_price_embedded_leverage_instruments",
+      "doi": "10.1093/rapstu/raab022",
+      "aum_strategy": null,
+      "sharpe_net": null,
+      "max_drawdown": null,
+      "source": "qsi/daily/2026-11-12.md",
+      "verification": "PROVISIONAL",
+      "deployment": "DRAFT_NO_SALE",
+      "priority": "P1",
+      "github": "https://github.com/polakowo/vectorbt"
     }
   ],
-  "updated_date": "2026-11-10"
+  "updated_date": "2026-11-12"
 }
