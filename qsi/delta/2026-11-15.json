@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-15",
+  "dedup": "PROVISIONAL",
+  "entries": [
+    {
+      "id": "QSI-106",
+      "name": "Cross-Sectional Crash Tail-Risk Beta",
+      "mechanism_key": "cross_sectional_extreme_negative_return_common_tail_factor_exposure",
+      "category": "tail_risk",
+      "doi": "10.1093/rfs/hhu039",
+      "paper": "https://doi.org/10.1093/rfs/hhu039",
+      "priority": "P1",
+      "small_capital": "MEDIUM_AS_RISK_FILTER",
+      "formula": "beta_tail=Cov(stock_return,lagged_common_tail_factor)/Var(lagged_common_tail_factor)",
+      "signal": "Estimate downside-tail factor from cross-sectional crashes, lagged tail beta; rank exposures monthly; first use risk filter",
+      "empirical": "Original paper: high minus low tail-risk loading portfolios differ by 5.4% annual three-factor alpha, historical, not costed strategy",
+      "overlap": "QSI-075 expected idiosyncratic skewness is individual positive-tail lottery; QSI-106 common negative crash risk loading"
+    },
+    {
+      "id": "QSI-107",
+      "name": "Customer-Supplier Economic Link Momentum",
+      "mechanism_key": "major_customer_public_return_news_lagged_supplier_price_adjustment",
+      "category": "supply_chain",
+      "doi": "10.1111/j.1540-6261.2008.01379.x",
+      "paper": "https://doi.org/10.1111/j.1540-6261.2008.01379.x",
+      "priority": "P0",
+      "small_capital": "MEDIUM_HIGH_AS_LONG_FILTER",
+      "formula": "supplier_signal=sum(customer_sales_weight*lagged_customer_return)",
+      "signal": "Rank suppliers by major customers' lagged monthly returns, rebalance monthly, sector neutral",
+      "empirical": "Original research long-short monthly alpha over 150 bps in historical sample; no verified post-cost Sharpe or max DD",
+      "overlap": "QSI-066 industry momentum uses sector aggregate; QSI-107 uses disclosed directed customer-supplier links"
+    },
+    {
+      "id": "QSI-108",
+      "name": "Total Asset Growth Anomaly",
+      "mechanism_key": "balance_sheet_total_asset_expansion_predicts_lower_future_equity_return",
+      "category": "investment_anomaly",
+      "doi": "10.1111/j.1540-6261.2008.01370.x",
+      "paper": "https://doi.org/10.1111/j.1540-6261.2008.01370.x",
+      "priority": "P1",
+      "small_capital": "HIGH_AS_FILTER",
+      "formula": "asset_growth=(total_assets_t-total_assets_t_minus_1)/total_assets_t_minus_1",
+      "signal": "Long lowest annual total asset growth quintile; high growth as short research or exclusion, rebalance monthly",
+      "empirical": "Original study: asset growth predicts future abnormal returns including large caps; numeric costed Sharpe/DD not verified",
+      "overlap": "QSI-101 NOA is cumulative net operating balance sheet, QSI-108 is annual total asset investment change"
+    },
+    {
+      "id": "QSI-109",
+      "name": "Operating Leverage Cross-Sectional Premium",
+      "mechanism_key": "fixed_operating_cost_sensitivity_cashflow_operating_leverage_risk_premium",
+      "category": "fundamental_risk",
+      "doi": "10.1093/rof/rfq019",
+      "paper": "https://doi.org/10.1093/rof/rfq019",
+      "priority": "P1",
+      "small_capital": "MEDIUM_AS_FACTOR",
+      "formula": "DOL=percentage_change_operating_income/percentage_change_revenue (simplified unstable proxy)",
+      "signal": "Rank robust operating leverage proxy within industry after PIT filings; investigate high-minus-low premium",
+      "empirical": "Original paper reports significant operating-leverage sort excess returns; exact costed Sharpe/DD not verified",
+      "overlap": "QSI-102 organization capital is capitalized SG&A knowledge; QSI-109 fixed operating cost exposure to demand shocks"
+    },
+    {
+      "id": "QSI-110",
+      "name": "Intangible Return Reversal",
+      "mechanism_key": "past_stock_return_orthogonal_to_accounting_fundamental_news_negative_predictor",
+      "category": "behavioral_value",
+      "doi": "10.1111/j.1540-6261.2006.00884.x",
+      "paper": "https://doi.org/10.1111/j.1540-6261.2006.00884.x",
+      "priority": "P1",
+      "small_capital": "HIGH_AS_FILTER",
+      "formula": "intangible_return=historical_stock_return-model_predicted_return_from_past_accounting_performance",
+      "signal": "Train PIT fundamental news model on past data; monthly rank residual intangible return; low residual long research",
+      "empirical": "Original paper: future return negatively related to intangible past return; no verified numeric net Sharpe/DD",
+      "overlap": "QSI-076 IPCA models dynamic latent risk exposures; QSI-110 decomposes historical return into tangible and intangible accounting-news components"
+    }
+  ]
+}
